@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Type__c</fullName>
+    <label>Event_Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Down</fullName>
+                <default>false</default>
+                <label>Down</label>
+            </value>
+            <value>
+                <fullName>MF Downgrade</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MF Downgrade</label>
+            </value>
+            <value>
+                <fullName>NIFTY Drop</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NIFTY Drop</label>
+            </value>
+            <value>
+                <fullName>Rate Hike</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rate Hike</label>
+            </value>
+            <value>
+                <fullName>Up</fullName>
+                <default>false</default>
+                <label>Up</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

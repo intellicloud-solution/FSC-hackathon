@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- Apex Classes -->
     <types>
         <members>*</members>
         <name>ApexClass</name>
-    </types> 
+    </types>
+
+    <!-- Flows -->
+    <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+
+    <!-- Permission Sets -->
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <!-- Lightning Web Components -->
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+
+    <!-- Aura Components (if any) -->
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+
+    <!-- Custom Objects (optional but useful) -->
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Custom Fields -->
+    <types>
+        <members>*</members>
+        <name>CustomField</name>
+    </types>
+
     <version>66.0</version>
 </Package>

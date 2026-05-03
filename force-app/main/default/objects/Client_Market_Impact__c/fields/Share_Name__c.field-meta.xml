@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Share_Name__c</fullName>
+    <label>Share Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Reliance</fullName>
+                <default>false</default>
+                <label>Reliance</label>
+            </value>
+            <value>
+                <fullName>TCS</fullName>
+                <default>false</default>
+                <label>TCS</label>
+            </value>
+            <value>
+                <fullName>HDFC</fullName>
+                <default>false</default>
+                <label>HDFC</label>
+            </value>
+            <value>
+                <fullName>Infosys</fullName>
+                <default>false</default>
+                <label>Infosys</label>
+            </value>
+            <value>
+                <fullName>SBI</fullName>
+                <default>false</default>
+                <label>SBI</label>
+            </value>
+            <value>
+                <fullName>ICS</fullName>
+                <default>false</default>
+                <label>ICS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Messaging_Process_Client_Channel_Preference</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Messaging Process</label>
+    <queue>Messaging_Process</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>
